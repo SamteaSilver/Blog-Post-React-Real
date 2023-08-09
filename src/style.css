@@ -1,0 +1,74 @@
+html {
+    border-left: 5px solid lightgray;
+}
+
+body {
+    min-height: 100vh;
+    font-family: sans-serif;
+    max-width: 1000px;
+    margin: auto;
+}
+
+header {
+    padding: 1rem 2rem
+}
+
+main {
+    padding: 1rem 2rem
+}
+
+footer {
+    padding: 1rem 2rem
+}
+
+h1 {
+    color: tomato
+}
+
+img {
+    width: 100%;
+}
+
+ul {
+    padding: 0;
+    list-style-type: none;
+    display: flex;
+    justify-content: space-between;
+}
+
+header a {
+    color: lightgray
+}
+
+footer a {
+    color: tomato
+}
+
+.title {
+    font-size: 50px;
+}
+
+h3 {
+    text-align: right;
+    color: tomato;
+}
+
+article {
+    margin-bottom: 4rem;
+    border-bottom: 1px solid lightgray;
+    padding-bottom: 2rem;
+
+}
+
+article p::first-letter {
+    float: left;
+    font-size: 6rem;
+    line-height: 1;
+    margin: 0.1em 0.1em 0.2em 0;
+    padding: 0.1em;
+    color: lightgray;
+}
+
+footer p {
+    color: lightgray;
+}
